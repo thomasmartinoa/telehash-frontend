@@ -1,12 +1,24 @@
-# React + Vite
+# 🛰 Telehash Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive React dashboard for interacting with the **Telehash** smart contract — a blockchain-based telemetry and command log system for satellites and deep space missions.
 
-Currently, two official plugins are available:
+> Built with 🦾 React + 💼 Ethers.js + 🔐 Metamask
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔗 Live Contract
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Smart contract on BNB Testnet:  
+[`0x76ca0FdbE82Fb9a0a23b5fA8A1Bb3844DFA2b3Ea`](https://testnet.bscscan.com/address/0x76ca0FdbE82Fb9a0a23b5fA8A1Bb3844DFA2b3Ea#code)
+
+---
+
+## 🚀 Features
+
+- ✅ Connect to wallet (Metamask)
+- ✅ Register satellites (1 per wallet)
+- ✅ Upload telemetry hash + metadata
+- ✅ Log command strings with timestamps
+- ✅ View command + telemetry logs
+- ✅ Toggle between dark and light themes
+
